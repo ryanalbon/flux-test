@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  namespace: alpha
+  name: ping2
+  labels:
+    app.kubernetes.io/name: ping2
+spec:
+  containers:
+  - name: ping2
+    image: slanghyena/ping:latest
