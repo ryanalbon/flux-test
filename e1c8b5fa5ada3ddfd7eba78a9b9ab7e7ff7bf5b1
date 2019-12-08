@@ -1,0 +1,1 @@
+{"jobID":"da142e24-9470-9d34-91db-10b28b57ef16","spec":{"type":"policy","cause":{"Message":"","User":"Ryan Albon \u003cryan@insideboard.com\u003e"},"spec":{"default:deployment/ping-3":{"add":{},"remove":{"locked":"true","locked_msg":"true","locked_user":"true"}}}},"result":null}
