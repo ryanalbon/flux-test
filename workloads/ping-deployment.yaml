@@ -6,6 +6,8 @@ metadata:
   name: ping-3
   labels:
     app.kubernetes.io/name: ping-3
+  annotations:
+    fluxcd.io/automated: 'true'
 spec:
   replicas: 1
   template:
