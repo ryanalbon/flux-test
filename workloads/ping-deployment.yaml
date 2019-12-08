@@ -1,0 +1,19 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  namespace: default
+  name: ping-3
+  labels:
+    app.kubernetes.io/name: ping-3
+spec:
+  replicas: 1
+  template:
+    metadata:
+      namespace: default
+      name: ping-3
+      labels:
+        app.kubernetes.io/name: ping-3
+    spec:
+      containers:
+      - name: ping-3
+        image: slanghyena/ping
