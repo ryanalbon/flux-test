@@ -17,4 +17,4 @@ spec:
     spec:
       containers:
       - name: ping-3
-        image: slanghyena/ping
+        image: slanghyena/ping:v0.4.0
